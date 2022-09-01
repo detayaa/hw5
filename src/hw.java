@@ -22,13 +22,19 @@ public class hw {
         }
 
         // задание 3
-        int year = 2021;
+        int year = 1884;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println("Год високосный");
+        } else {
+            System.out.println("Год не високосный");
+        }
 
 
 
 
         // задание 4
         int deliveryDistance = 95;
+
 
 
 
