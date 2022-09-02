@@ -34,6 +34,17 @@ public class hw {
 
         // задание 4
         int deliveryDistance = 95;
+        int dayDelivery = 1;
+        if (deliveryDistance > 20) {
+            dayDelivery ++;
+        }
+        if (deliveryDistance > 60) {
+            dayDelivery ++;
+        }
+        if (deliveryDistance > 100) {
+            dayDelivery ++;
+        }
+        System.out.println("Потребуется дней: " + dayDelivery);
 
 
 
